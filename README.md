@@ -1,7 +1,12 @@
 # AUGMENTED_FEEDBACK_DRUMMERS
 
-Install Packet Sender https://packetsender.com/
+## Max Packages 
+* sadam
+* CNMAT Externals
 
-Install sadam package Max
+## Testing software
+* Packet Sender https://packetsender.com/
 
-Run: \MaxPatches\QTM_RT_Protocol_test.maxpat
+
+
+
