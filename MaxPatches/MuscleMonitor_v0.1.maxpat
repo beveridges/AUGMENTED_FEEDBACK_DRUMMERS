@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 59.0, 118.0, 975.0, 480.0 ],
+		"rect" : [ 226.0, 427.0, 975.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -48,7 +48,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 918.454547882080078, 588.376620531082153, 285.0, 40.0 ],
-					"presentation_linecount" : 2,
 					"text" : "Similar story here.  unpacking for different data",
 					"textcolor" : [ 1.0, 0.054901960784314, 0.396078431372549, 1.0 ]
 				}
@@ -89,8 +88,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 590.324675559997559, 565.584413528442383, 282.0, 57.0 ],
-					"presentation_linecount" : 3,
+					"patching_rect" : [ 590.324675559997559, 565.584413528442383, 285.0, 57.0 ],
 					"text" : "In the original patch this info is unpacked to retreive the 3d data.  We're after the analogue signals on specified channels.",
 					"textcolor" : [ 1.0, 0.054901960784314, 0.396078431372549, 1.0 ]
 				}
@@ -377,7 +375,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 35.302324295043945, 534.302334666252136, 267.0, 5335.0 ],
-					"presentation_linecount" : 386,
 					"text" : "\"<QTM_Parameters_Ver_1.10>\r\n    <General>\r\n        <Frequency>100</Frequency>\r\n        <Capture_Time>300.000000</Capture_Time>\r\n        <Start_On_External_Trigger>False</Start_On_External_Trigger>\r\n        <External_Time_Base>\r\n            <Enabled>False</Enabled>\r\n            <Signal_Source>Control port</Signal_Source>\r\n            <Signal_Mode>Periodic</Signal_Mode>\r\n            <Frequency_Multiplier>1</Frequency_Multiplier>\r\n            <Frequency_Divisor>480</Frequency_Divisor>\r\n            <Frequency_Tolerance>1000</Frequency_Tolerance>\r\n            <Nominal_Frequency>None</Nominal_Frequency>\r\n            <Signal_Edge>Negative</Signal_Edge>\r\n            <Signal_Shutter_Delay>0</Signal_Shutter_Delay>\r\n            <Non_Periodic_Timeout>0</Non_Periodic_Timeout>\r\n        </External_Time_Base>\r\n        <Processing_Actions>\r\n            <Tracking>3D</Tracking>\r\n            <TwinSystemMerge>False</TwinSystemMerge>\r\n            <SplineFill>True</SplineFill>\r\n            <AIM>False</AIM>\r\n            <Track6DOF>False</Track6DOF>\r\n            <ForceData>False</ForceData>\r\n            <ExportTSV>False</ExportTSV>\r\n            <ExportC3D>False</ExportC3D>\r\n            <ExportDiff>False</ExportDiff>\r\n            <ExportMatlabDirect>False</ExportMatlabDirect>\r\n            <ExportMatlabFile>False</ExportMatlabFile>\r\n        </Processing_Actions>\r\n        <Camera>\r\n            <ID>1</ID>\r\n            <Model>Oqus 300</Model>\r\n            <Underwater>False</Underwater>\r\n            <Serial>12056</Serial>\r\n            <Mode>Marker</Mode>\r\n            <Video_Exposure>\r\n                <Current>33313</Current>\r\n                <Min>5</Min>\r\n                <Max>33313</Max>\r\n            </Video_Exposure>\r\n            <Video_Flash_Time>\r\n                <Current>1100</Current>\r\n                <Min>0</Min>\r\n                <Max>2000</Max>\r\n            </Video_Flash_Time>\r\n            <Marker_Exposure>\r\n                <Current>298</Current>\r\n                <Min>5</Min>\r\n                <Max>1000</Max>\r\n            </Marker_Exposure>\r\n            <Marker_Threshold>\r\n                <Current>183</Current>\r\n                <Min>50</Min>\r\n                <Max>900</Max>\r\n            </Marker_Threshold>\r\n            <Position>\r\n                <X>3532.341119</X>\r\n                <Y>2539.712869</Y>\r\n                <Z>134.519914</Z>\r\n                <Rot_1_1>-0.476386</Rot_1_1>\r\n                <Rot_2_1>0.877516</Rot_2_1>\r\n                <Rot_3_1>-0.054979</Rot_3_1>\r\n                <Rot_1_2>0.153010</Rot_1_2>\r\n                <Rot_2_2>0.144318</Rot_2_2>\r\n                <Rot_3_2>0.977630</Rot_3_2>\r\n                <Rot_1_3>0.865820</Rot_1_3>\r\n                <Rot_2_3>0.457317</Rot_2_3>\r\n                <Rot_3_3>-0.203019</Rot_3_3>\r\n            </Position>\r\n            <Orientation>0</Orientation>\r\n            <Marker_Res>\r\n                <Width>81920</Width>\r\n                <Height>65536</Height>\r\n            </Marker_Res>\r\n            <Video_Res>\r\n                <Width>1280</Width>\r\n                <Height>1024</Height>\r\n            </Video_Res>\r\n            <Marker_FOV>\r\n                <Left>0</Left>\r\n                <Top>0</Top>\r\n                <Right>1279</Right>\r\n                <Bottom>1023</Bottom>\r\n            </Marker_FOV>\r\n            <Video_FOV>\r\n                <Left>0</Left>\r\n                <Top>0</Top>\r\n                <Right>1279</Right>\r\n                <Bottom>1023</Bottom>\r\n            </Video_FOV>\r\n            <Sync_Out>\r\n                <Mode>Shutter out</Mode>\r\n                <Signal_Polarity>Negative</Signal_Polarity>\r\n            </Sync_Out>\r\n        </Camera>\r\n        <Camera>\r\n            <ID>2</ID>\r\n            <Model>Oqus 300</Model>\r\n            <Underwater>False</Underwater>\r\n            <Serial>12059</Serial>\r\n            <Mode>Marker</Mode>\r\n            <Video_Exposure>\r\n                <Current>33313</Current>\r\n                <Min>5</Min>\r\n                <Max>33313</Max>\r\n            </Video_Exposure>\r\n            <Video_Flash_Time>\r\n                <Current>1100</Current>\r\n                <Min>0</Min>\r\n                <Max>2000</Max>\r\n            </Video_Flash_Time>\r\n            <Marker_Exposure>\r\n                <Current>122</Current>\r\n                <Min>5</Min>\r\n                <Max>1000</Max>\r\n            </Marker_Exposure>\r\n            <Marker_Threshold>\r\n                <Current>183</Current>\r\n                <Min>50</Min>\r\n                <Max>900</Max>\r\n            </Marker_Threshold>\r\n            <Position>\r\n                <X>-2597.129062</X>\r\n                <Y>2655.162677</Y>\r\n                <Z>103.343030</Z>\r\n                <Rot_1_1>-0.503150</Rot_1_1>\r\n                <Rot_2_1>-0.859635</Rot_2_1>\r\n                <Rot_3_1>0.088706</Rot_3_1>\r\n                <Rot_1_2>-0.141234</Rot_1_2>\r\n                <Rot_2_2>0.183059</Rot_2_2>\r\n                <Rot_3_2>0.972904</Rot_3_2>\r\n                <Rot_1_3>-0.852580</Rot_1_3>\r\n                <Rot_2_3>0.476988</Rot_2_3>\r\n                <Rot_3_3>-0.213516</Rot_3_3>\r\n            </Position>\r\n            <Orientation>0</Orientation>\r\n            <Marker_Res>\r\n                <Width>81920</Width>\r\n                <Height>65536</Height>\r\n            </Marker_Res>\r\n            <Video_Res>\r\n                <Width>1280</Width>\r\n                <Height>1024</Height>\r\n            </Video_Res>\r\n            <Marker_FOV>\r\n                <Left>0</Left>\r\n                <Top>0</Top>\r\n                <Right>1279</Right>\r\n                <Bottom>1023</Bottom>\r\n            </Marker_FOV>\r\n            <Video_FOV>\r\n                <Left>0</Left>\r\n                <Top>0</Top>\r\n                <Right>1279</Right>\r\n                <Bottom>1023</Bottom>\r\n            </Video_FOV>\r\n            <Sync_Out>\r\n                <Mode>Shutter out</Mode>\r\n                <Signal_Polarity>Negative</Signal_Polarity>\r\n            </Sync_Out>\r\n        </Camera>\r\n        <Camera>\r\n            <ID>3</ID>\r\n            <Model>Oqus 300</Model>\r\n            <Underwater>False</Underwater>\r\n            <Serial>12039</Serial>\r\n            <Mode>Marker</Mode>\r\n            <Video_Exposure>\r\n                <Current>33313</Current>\r\n                <Min>5</Min>\r\n                <Max>33313</Max>\r\n            </Video_Exposure>\r\n            <Video_Flash_Time>\r\n                <Current>1100</Current>\r\n                <Min>0</Min>\r\n                <Max>2000</Max>\r\n            </Video_Flash_Time>\r\n            <Marker_Exposure>\r\n                <Current>298</Current>\r\n                <Min>5</Min>\r\n                <Max>1000</Max>\r\n            </Marker_Exposure>\r\n            <Marker_Threshold>\r\n                <Current>183</Current>\r\n                <Min>50</Min>\r\n                <Max>900</Max>\r\n            </Marker_Threshold>\r\n            <Position>\r\n                <X>3836.925658</X>\r\n                <Y>1017.510622</Y>\r\n                <Z>3481.755445</Z>\r\n                <Rot_1_1>-0.055637</Rot_1_1>\r\n                <Rot_2_1>0.996455</Rot_2_1>\r\n                <Rot_3_1>-0.063105</Rot_3_1>\r\n                <Rot_1_2>-0.592376</Rot_1_2>\r\n                <Rot_2_2>0.017935</Rot_2_2>\r\n                <Rot_3_2>0.805462</Rot_3_2>\r\n                <Rot_1_3>0.803738</Rot_1_3>\r\n                <Rot_2_3>0.082196</Rot_2_3>\r\n                <Rot_3_3>0.589278</Rot_3_3>\r\n            </Position>\r\n            <Orientation>0</Orientation>\r\n            <Marker_Res>\r\n                <Width>81920</Width>\r\n                <Height>65536</Height>\r\n            </Marker_Res>\r\n            <Video_Res>\r\n                <Width>1280</Width>\r\n                <Height>1024</Height>\r\n            </Video_Res>\r\n            <Marker_FOV>\r\n                <Left>0</Left>\r\n                <Top>0</Top>\r\n                <Right>1279</Right>\r\n                <Bottom>1023</Bottom>\r\n            </Marker_FOV>\r\n            <Video_FOV>\r\n                <Left>0</Left>\r\n                <Top>0</Top>\r\n                <Right>1279</Right>\r\n                <Bottom>1023</Bottom>\r\n            </Video_FOV>\r\n            <Sync_Out>\r\n                <Mode>Shutter out</Mode>\r\n                <Signal_Polarity>Negative</Signal_Polarity>\r\n            </Sync_Out>\r\n        </Camera>\r\n        <Camera>\r\n            <ID>4</ID>\r\n            <Model>Oqus 300</Model>\r\n            <Underwater>False</Underwater>\r\n            <Serial>12057</Serial>\r\n            <Mode>Marker</Mode>\r\n            <Video_Exposure>\r\n                <Current>33313</Current>\r\n                <Min>5</Min>\r\n                <Max>33313</Max>\r\n            </Video_Exposure>\r\n            <Video_Flash_Time>\r\n                <Current>1100</Current>\r\n                <Min>0</Min>\r\n                <Max>2000</Max>\r\n            </Video_Flash_Time>\r\n            <Marker_Exposure>\r\n                <Current>298</Current>\r\n                <Min>5</Min>\r\n                <Max>1000</Max>\r\n            </Marker_Exposure>\r\n            <Marker_Threshold>\r\n                <Current>183</Current>\r\n                <Min>50</Min>\r\n                <Max>900</Max>\r\n            </Marker_Threshold>\r\n            <Position>\r\n                <X>-2781.070090</X>\r\n                <Y>1494.126349</Y>\r\n                <Z>3377.517544</Z>\r\n                <Rot_1_1>0.189636</Rot_1_1>\r\n                <Rot_2_1>-0.895263</Rot_2_1>\r\n                <Rot_3_1>0.403165</Rot_3_1>\r\n                <Rot_1_2>0.606709</Rot_1_2>\r\n                <Rot_2_2>0.429688</Rot_2_2>\r\n                <Rot_3_2>0.668784</Rot_3_2>\r\n                <Rot_1_3>-0.771973</Rot_1_3>\r\n                <Rot_2_3>0.117778</Rot_2_3>\r\n                <Rot_3_3>0.624648</Rot_3_3>\r\n            </Position>\r\n            <Orientation>0</Orientation>\r\n            <Marker_Res>\r\n                <Width>81920</Width>\r\n                <Height>65536</Height>\r\n            </Marker_Res>\r\n            <Video_Res>\r\n                <Width>1280</Width>\r\n                <Height>1024</Height>\r\n            </Video_Res>\r\n            <Marker_FOV>\r\n                <Left>0</Left>\r\n                <Top>0</Top>\r\n                <Right>1279</Right>\r\n                <Bottom>1023</Bottom>\r\n            </Marker_FOV>\r\n            <Video_FOV>\r\n                <Left>0</Left>\r\n                <Top>0</Top>\r\n                <Right>1279</Right>\r\n                <Bottom>1023</Bottom>\r\n            </Video_FOV>\r\n            <Sync_Out>\r\n                <Mode>Camera independent</Mode>\r\n                <Value>100</Value>\r\n                <Duty_Cycle>50.000</Duty_Cycle>\r\n                <Signal_Polarity>Negative</Signal_Polarity>\r\n            </Sync_Out>\r\n        </Camera>\r\n    </General>\r\n    <Image>\r\n        <Camera>\r\n            <ID>1</ID>\r\n            <Enabled>False</Enabled>\r\n            <Format>JPG</Format>\r\n            <Width>1280</Width>\r\n            <Height>1024</Height>\r\n            <Left_Crop>0.000000</Left_Crop>\r\n            <Top_Crop>0.000000</Top_Crop>\r\n            <Right_Crop>1.000000</Right_Crop>\r\n            <Bottom_Crop>1.000000</Bottom_Crop>\r\n        </Camera>\r\n        <Camera>\r\n            <ID>2</ID>\r\n            <Enabled>False</Enabled>\r\n            <Format>JPG</Format>\r\n            <Width>1280</Width>\r\n            <Height>1024</Height>\r\n            <Left_Crop>0.000000</Left_Crop>\r\n            <Top_Crop>0.000000</Top_Crop>\r\n            <Right_Crop>1.000000</Right_Crop>\r\n            <Bottom_Crop>1.000000</Bottom_Crop>\r\n        </Camera>\r\n        <Camera>\r\n            <ID>3</ID>\r\n            <Enabled>False</Enabled>\r\n            <Format>JPG</Format>\r\n            <Width>1280</Width>\r\n            <Height>1024</Height>\r\n            <Left_Crop>0.000000</Left_Crop>\r\n            <Top_Crop>0.000000</Top_Crop>\r\n            <Right_Crop>1.000000</Right_Crop>\r\n            <Bottom_Crop>1.000000</Bottom_Crop>\r\n        </Camera>\r\n        <Camera>\r\n            <ID>4</ID>\r\n            <Enabled>False</Enabled>\r\n            <Format>JPG</Format>\r\n            <Width>1280</Width>\r\n            <Height>1024</Height>\r\n            <Left_Crop>0.000000</Left_Crop>\r\n            <Top_Crop>0.000000</Top_Crop>\r\n            <Right_Crop>1.000000</Right_Crop>\r\n            <Bottom_Crop>1.000000</Bottom_Crop>\r\n        </Camera>\r\n    </Image>\r\n    <The_3D>\r\n        <AxisUpwards>+Z</AxisUpwards>\r\n        <CalibrationTime>2011-07-05 12:43:38</CalibrationTime>\r\n        <Labels>0</Labels>\r\n    </The_3D>\r\n    <The_6D>\r\n        <Bodies>0</Bodies>\r\n    </The_6D>\r\n    <Analog/>\r\n    <Force>\r\n        <Unit_Length>mm</Unit_Length>\r\n        <Unit_Force>N</Unit_Force>\r\n    </Force>\r\n</QTM_Parameters_Ver_1.10>\r\n\""
 				}
 
@@ -476,7 +473,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 295.0, 261.0, 313.0, 23.0 ],
-					"presentation_linecount" : 2,
 					"text" : "These filter OSC parameters need to be changed",
 					"textcolor" : [ 1.0, 0.054901960784314, 0.396078431372549, 1.0 ]
 				}
@@ -517,8 +513,8 @@
 					"id" : "obj-8",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 630.0, 318.0, 87.0, 22.0 ],
 					"text" : "osc-route /qtm"
 				}
@@ -575,7 +571,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 752.0, 189.0, 145.0, 34.0 ],
-					"presentation_linecount" : 2,
 					"text" : "Receiving UDP data on port 45454"
 				}
 
@@ -616,7 +611,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 641.0, 132.0, 218.0, 34.0 ],
-					"presentation_linecount" : 2,
 					"text" : "Set up to receive Open Sound Control data on port 22289"
 				}
 
@@ -803,13 +797,12 @@
 					"fontname" : "Bahnschrift",
 					"fontsize" : 14.0,
 					"id" : "obj-20",
-					"linecount" : 3,
+					"linecount" : 4,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 22.0, 52.5, 492.0, 57.0 ],
-					"presentation_linecount" : 5,
-					"text" : "% Author: Scott \n% Created: 27.09.21\n% Based on: One-Hand_synth_v1.0_forQTM2.7.maxpat - by Marc Bangert"
+					"patching_rect" : [ 22.0, 52.5, 492.0, 74.0 ],
+					"text" : "% Author: Scott \n% Created: 27.09.21\n% Last modified 18.10.21 Beveridge\n% Based on: One-Hand_synth_v1.0_forQTM2.7.maxpat - by Marc Bangert"
 				}
 
 			}
@@ -1079,11 +1072,7 @@
 
 			}
  ],
-		"dependency_cache" : [ 			{
-				"name" : "OSC-route.mxe64",
-				"type" : "mx64"
-			}
- ],
+		"dependency_cache" : [  ],
 		"autosave" : 0
 	}
 
