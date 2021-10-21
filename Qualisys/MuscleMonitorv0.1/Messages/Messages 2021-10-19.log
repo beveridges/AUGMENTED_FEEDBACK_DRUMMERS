@@ -1,0 +1,119 @@
+1	12:30:28	Input device issue	Noraxon input device error: The selected Noraxon device or a combination of Noraxon devices is not supported.  
+1	12:30:28	Realtime started	
+1	13:44:57	Input device issue	Noraxon input device error: Prepare Noraxon driver failed: Could not find sync channel.  
+1	13:46:48	Input device issue	Noraxon input device error: Prepare Noraxon driver failed: Could not find sync channel.  
+1	13:46:56	Disconnected	
+1	13:47:50	Input device issue	Noraxon input device error: Prepare Noraxon driver failed: Could not find sync channel.  
+1	13:47:50	Realtime started	
+1	13:49:09	Disconnected	
+1	13:50:12	Input device issue	Noraxon input device error: Prepare Noraxon driver failed: Could not find sync channel.  
+1	13:50:12	Realtime started	
+1	13:52:52	Input device issue	Noraxon input device error: Prepare Noraxon driver failed: Could not find sync channel.  
+1	13:53:14	Disconnected	
+1	13:53:29	Input device issue	Noraxon input device error: Prepare Noraxon driver failed: Could not find sync channel.  
+1	13:53:30	Realtime started	
+1	13:53:32	Input device issue	Noraxon input device error: Prepare Noraxon driver failed: Could not find sync channel.  
+1	13:53:55	Disconnected	
+1	13:53:58	Input device issue	Noraxon input device error: Prepare Noraxon driver failed: Could not find sync channel.  
+1	13:53:59	Realtime started	
+1	13:54:00	Input device issue	Noraxon input device error: Prepare Noraxon driver failed: Could not find sync channel.  
+1	13:54:05	Disconnected	
+1	13:54:18	Input device issue	Noraxon input device error: Prepare Noraxon driver failed: Could not find sync channel.  
+1	13:54:18	Realtime started	
+1	13:58:51	Input device issue	Noraxon input device error: Prepare Noraxon driver failed: Could not find sync channel.  
+1	13:59:00	Recalibration recommended	Camera 5 has residuals (3.8) exceeding the warning level.
+1	13:59:00	Rigid body identification results	Rigid body identification results:  0 successful  2 failed
+1	13:59:00	File created	
+1	13:59:01	File saved as C:\Users\QTM\Documents\MuscleMonitorv0.1\Data\singleMuscle0007.qtm	
+1	14:09:43	File closed	
+1	14:09:44	Realtime started	
+1	14:09:57	Input device issue	Noraxon input device error: Prepare Noraxon driver failed: Could not find sync channel.  
+1	14:11:21	Input device issue	Noraxon input device error: Prepare Noraxon driver failed: Could not find sync channel.  
+1	14:19:18	Disconnected	
+1	14:20:05	Input device issue	Noraxon input device error: Prepare Noraxon driver failed: Could not find sync channel.  
+1	14:20:05	Realtime started	
+1	14:22:21	Input device issue	Noraxon input device error: Prepare Noraxon driver failed: Could not find sync channel.  
+1	14:22:35	Disconnected	
+1	14:22:43	Realtime started	
+1	14:23:13	Disconnected	
+1	14:23:19	Realtime started	
+1	14:23:42	Disconnected	
+1	14:24:16	Realtime started	
+1	14:24:22	Disconnected	
+1	14:25:08	Realtime started	
+1	14:25:35	Disconnected	
+1	14:25:40	Realtime started	
+1	14:25:54	Disconnected	
+1	14:26:02	Realtime started	
+1	14:26:15	Disconnected	
+1	14:26:23	Realtime started	
+1	14:26:53	Disconnected	
+1	14:29:57	Realtime started	
+1	14:30:25	Disconnected	
+1	14:32:00	Realtime started	
+1	14:32:10	Disconnected	
+1	14:53:55	Realtime started	
+1	14:54:37	Disconnected	
+1	14:55:03	Realtime started	
+1	14:55:56	Camera reset due to error	The cameras "12059", "12057" and "12058" have been reset due to error.  Continuing without those cameras... Error: 001 - code 08 - camera 02 (192.168.254.3) : The camera did not reply during a(n) 'set settings' operation. 002 - code 08 - camera 03 (192.168.254.8) : The camera did not reply during a(n) 'set settings' operation. 003 - code 08 - camera 04 (192.168.254.4) : The camera did not reply during a(n) 'set settings' operation.
+1	14:55:59	Camera 1 did not return expected amount of marker frames (2094 / 2194)	Camera 1 did not return expected amount of marker frames (2094 / 2194)
+1	14:55:59	Camera 2 did not return expected amount of marker frames (2094 / 2194)	Camera 2 did not return expected amount of marker frames (2094 / 2194)
+1	14:55:59	Camera 3 did not return expected amount of marker frames (2094 / 2194)	Camera 3 did not return expected amount of marker frames (2094 / 2194)
+1	14:56:00	Recalibration recommended	Camera 5 has residuals (4.0) exceeding the warning level.
+1	14:56:00	Rigid body identification results	Rigid body identification results:  0 successful  2 failed
+1	14:56:00	File created	
+1	14:56:00	File saved as C:\Users\QTM\Documents\MuscleMonitorv0.1\Data\singleMuscle0018.qtm	
+1	14:57:58	File closed	
+1	14:58:00	File loaded from C:\Users\QTM\Documents\MuscleMonitorv0.1\Data\singleMuscle0007.qtm	
+1	14:58:02	File closed	
+1	14:58:05	Realtime started	
+1	15:00:34	Recalibration recommended	Camera 5 has residuals (4.2) exceeding the warning level.
+1	15:00:34	Rigid body identification results	Rigid body identification results:  0 successful  2 failed
+1	15:00:34	File created	
+1	15:00:34	File saved as C:\Users\QTM\Documents\MuscleMonitorv0.1\Data\singleMuscle0019.qtm	
+1	15:01:16	File closed	
+1	15:01:19	Realtime started	
+1	15:02:30	Disconnected	
+1	15:02:35	Realtime started	
+1	15:02:47	Disconnected	
+1	15:02:57	Realtime started	
+1	15:03:13	Disconnected	
+1	15:03:20	Realtime started	
+1	15:05:21	Disconnected	
+1	15:05:25	Realtime started	
+1	15:07:10	Recalibration recommended	Camera 5 has residuals (4.2) exceeding the warning level.
+1	15:07:10	Rigid body identification results	Rigid body identification results:  0 successful  2 failed
+1	15:07:10	File created	
+1	15:07:11	File saved as C:\Users\QTM\Documents\MuscleMonitorv0.1\Data\singleMuscle0024.qtm	
+1	15:07:15	File closed	
+1	15:07:19	Realtime started	
+1	15:09:04	Recalibration recommended	Camera 5 has residuals (4.2) exceeding the warning level.
+1	15:09:04	Rigid body identification results	Rigid body identification results:  0 successful  2 failed
+1	15:09:04	File created	
+1	15:09:05	File saved as C:\Users\QTM\Documents\MuscleMonitorv0.1\Data\singleMuscle0025.qtm	
+1	15:10:46	File closed	
+1	15:10:49	Realtime started	
+1	15:13:59	Disconnected	
+1	15:14:06	Realtime started	
+1	15:15:51	Recalibration recommended	Camera 5 has residuals (4.2) exceeding the warning level.
+1	15:15:51	Rigid body identification results	Rigid body identification results:  0 successful  2 failed
+1	15:15:51	File created	
+1	15:15:51	File saved as C:\Users\QTM\Documents\MuscleMonitorv0.1\Data\singleMuscle0027.qtm	
+1	15:15:58	File closed	
+1	15:16:01	Realtime started	
+1	15:18:43	Recalibration recommended	Camera 5 has residuals (4.2) exceeding the warning level.
+1	15:18:43	Rigid body identification results	Rigid body identification results:  0 successful  2 failed
+1	15:18:43	File created	
+1	15:18:43	File saved as C:\Users\QTM\Documents\MuscleMonitorv0.1\Data\singleMuscle0028.qtm	
+1	15:34:16	File closed	
+1	15:34:20	Realtime started	
+1	15:36:34	Recalibration recommended	Camera 5 has residuals (4.2) exceeding the warning level.
+1	15:36:34	Rigid body identification results	Rigid body identification results:  0 successful  2 failed
+1	15:36:34	File created	
+1	15:36:34	File saved as C:\Users\QTM\Documents\MuscleMonitorv0.1\Data\singleMuscle0029.qtm	
+1	15:37:03	File closed	
+1	15:37:07	Realtime started	
+1	15:41:20	Recalibration recommended	Camera 5 has residuals (4.2) exceeding the warning level.
+1	15:41:20	Rigid body identification results	Rigid body identification results:  0 successful  2 failed
+1	15:41:20	File created	
+1	15:41:20	File saved as C:\Users\QTM\Documents\MuscleMonitorv0.1\Data\singleMuscle0030.qtm	
