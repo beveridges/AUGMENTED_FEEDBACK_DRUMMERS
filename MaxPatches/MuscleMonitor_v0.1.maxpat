@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 77.0, 1852.0, 1049.0 ],
+		"rect" : [ 34.0, 77.0, 1048.0, 570.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -167,8 +167,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 1432.0, 421.121536498279966, 243.407744874715263, 247.925754060324863 ],
-					"pic" : "C:/Users/QTM/Desktop/AUGMENTED_FEEDBACK_DRUMMERS/MaxPatches/images/axes.png"
+					"patching_rect" : [ 1421.830508947372437, 421.121536498279966, 253.577235927342826, 258.284005967757594 ],
+					"pic" : "C:/Users/scott/Dropbox/__PROJECTS__/AUGMENTED_FEEDBACK_DRUMMERS/AUGMENTED_FEEDBACK_DRUMMERS/MaxPatches/images/axes.png"
 				}
 
 			}
@@ -197,7 +197,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 371.439024448394775, 287.0, 291.0, 22.0 ],
-					"presentation_linecount" : 2,
 					"text" : "/qtm StreamFrames AllFrames AnalogSingle[:1-6] 3D"
 				}
 
@@ -247,7 +246,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 759.0, 773.58999827504158, 92.0, 23.0 ],
-					"presentation_linecount" : 2,
 					"text" : "RightTIP (Z)",
 					"textjustification" : 1
 				}
@@ -1504,7 +1502,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "axes.png",
-				"bootpath" : "~/Desktop/AUGMENTED_FEEDBACK_DRUMMERS/MaxPatches/images",
+				"bootpath" : "~/Dropbox/__PROJECTS__/AUGMENTED_FEEDBACK_DRUMMERS/AUGMENTED_FEEDBACK_DRUMMERS/MaxPatches/images",
 				"patcherrelativepath" : "./images",
 				"type" : "PNG",
 				"implicit" : 1
