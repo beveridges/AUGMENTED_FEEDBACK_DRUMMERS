@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 77.0, 1048.0, 570.0 ],
+		"rect" : [ 34.0, 77.0, 1468.0, 713.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,345 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"attr" : "frgb",
+					"displaymode" : 3,
+					"fontface" : 0,
+					"fontname" : "Arial",
+					"fontsize" : 13.0,
+					"id" : "obj-93",
+					"lock" : 1,
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 2118.926878929138184, 950.9268479347229, 202.0, 23.0 ],
+					"text_width" : 80.009029150009155
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"attr" : "brgb",
+					"fontface" : 0,
+					"fontname" : "Arial",
+					"fontsize" : 13.0,
+					"id" : "obj-94",
+					"lock" : 1,
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 2112.926878929138184, 917.9268479347229, 202.0, 23.0 ],
+					"text_width" : 56.0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"attr" : "rangehi",
+					"fontface" : 0,
+					"fontname" : "Arial",
+					"fontsize" : 13.0,
+					"id" : "obj-95",
+					"lock" : 1,
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 2138.508272707462311, 883.831160545349121, 105.0, 23.0 ],
+					"text_width" : 56.0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"attr" : "rangelo",
+					"fontface" : 0,
+					"fontname" : "Arial",
+					"fontsize" : 13.0,
+					"id" : "obj-96",
+					"lock" : 1,
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 2123.77959144115448, 859.174910426139832, 105.0, 23.0 ],
+					"text_width" : 56.0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"attr" : "mode",
+					"fontface" : 0,
+					"fontname" : "Arial",
+					"fontsize" : 13.0,
+					"id" : "obj-97",
+					"lock" : 1,
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 2109.826103925704956, 822.097391664981842, 105.0, 23.0 ],
+					"text_width" : 56.0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"attr" : "clearit",
+					"displaymode" : 8,
+					"fontface" : 0,
+					"fontname" : "Arial",
+					"fontsize" : 13.0,
+					"id" : "obj-99",
+					"lock" : 1,
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 2098.97339141368866, 791.996616661548615, 80.0, 23.0 ],
+					"text_width" : 56.0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-92",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "jit_matrix", "" ],
+					"patching_rect" : [ 1822.03972544193266, 923.267276763916016, 76.0, 23.0 ],
+					"text" : "jit.matrix -1 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 13.0,
+					"id" : "obj-17",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "jit_matrix", "" ],
+					"patching_rect" : [ 1822.03972544193266, 1000.355960160493851, 56.0, 23.0 ],
+					"text" : "jit.graph"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-16",
+					"linecount" : 20,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 311.190471172332764, 1910.833750307559967, 1369.0, 284.0 ],
+					"text" : "jit.lcd Description The jit.lcd object is a wrapper for many QuickDraw commands. Examples Matrix Operator matrix inputs:0, matrix outputs:1 Name IOProc Planelink Typelink Dimlink Plane Dim Type out n/a 1 1 1 4 1 char Attributes Messages ascii Arguments character [int] Writes the ASCII character specified by the character argument at the current pen location using the current font and textmode, then moves the pen position to the right of that character. Numbers that exceed the 0-255 range are restricted to that range with a modulus operation. brgb Arguments red [int] green [int] blue [int] Sets the current background color. All values should be in the range 0-255. clearpicts The word clearpicts, followed by a symbol, deletes all of an lcd object's named pictures from memory so that they can no longer be drawn. To remove the images from the lcd object's display, the command should be followed by a clear message. clipoval Arguments left [int] top [int] bottom [int] right [int] Clips drawing commands to the oval specified by left top right bottom The arguments are specified in pixels, relative to the top left corner of the viewing area. clippoly Arguments x/y int pairs [list] Clips drawing commands to the polygon specified by the up to 254 x/y-pairs arguments. These integer pairs are specified in pixels, relative to the top left corner of the viewing area. cliprect Arguments left [int] top [int] bottom [int] right [int] Clips drawing commands to the rectangle specified by left, top, right, and bottom arguments. These integer arguments are specified in pixels, relative to the top left corner of the viewing area. cliproundrect Arguments left [int] top [int] bottom [int] right [int] horizontal-roundness [int] vertical-roundness [int] Clips drawing commands to the rounded rectangle specified by left, top, right, bottom, horizontal-roundness, and vertical-roundness arguments. These integer arguments are specified in pixels, relative to the top left corner of the viewing area. color Arguments color-index [int] Sets the current pen color to the value specified by the color-index argument. deletepict Arguments any symbol [list] The word deletepict, followed by a symbol, deletes the named the picture from memory so that it can no longer be drawn. To remove the image from the lcd object's display, the command should be followed by a clear message. drawpict Arguments pict-name [symbol] x-offset [int] y-offset [int] width [int] height [int] src-x-offset [int] src-y-offset [int] src-width [int] src-height [int] Draws the named picture or matrix. A destination rectangle into which the picture is scaled and drawn may optionally be specified by the x-offset, y-offset, width, and height integer arguments. A source rectangle that specifies the area of the picture to use in the operation may also be optionally specified by the src-x-offset, src-y-offset, src-width, and src-height integer arguments. The position of the destination and source rectangles are relative to the top left corner of the jit.lcd object's display area. Unless otherwise specified, both rectangles are set to be the same size as the picture. All arguments are optional and default to zero. The current penmode will used as the transfer mode. font Arguments mutex group font-id [int] font-name [symbol] endmutex group font-size () [int] Sets the current font name and size. Fonts can be specified by either their ID number or name. Font size is specified in points. framearc Arguments left [int] top [int] bottom [int] right [int] start-angle [int] arc-length [int] mutex group color-index [int] red [int] green [int] blue [int] endmutex group Paints the outline of an arc. The left, top, right, and bottom arguments describe the top and bottom extremities in pixels of an oval across which the arc will be drawn, and the start-angle and arc-length arguments describe the position of the arc with respect to the oval. The location of the oval/arc is relative to the top left corner of the jit.lcd object's display area. A color may also optionally be specified using a single number that selects a color from Max's color palette (similar to the color message), or by using three additional numbers that describe an RGB value (similar to the frgb message). The width of the line segment describing the arc is set using the pensize message to the jit.lcd object. frameoval Arguments left [int] top [int] bottom [int] right [int] mutex group color-index [int] red [int] green [int] blue [int] endmutex group Draws the unfilled outline of an oval. The left, top, right, and bottom integer arguments describe the top and bottom extremities in pixels of the oval. The location of the oval is relative to the top left corner of the jit.lcd object's display area. Optional additional arguments to specify the color of the border may also follow. If a single integer argument is used, it specifies a color from Max's color palette. Three integer arguments specify an RGB color. The width of the border of the oval is set using the pensize message to the jit.lcd object."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-88",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 2034.114186425209027, 271.391571672775854, 29.5, 23.0 ],
+					"text" : "+"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"format" : 6,
+					"id" : "obj-87",
+					"maxclass" : "flonum",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 2019.97763546228407, 230.306464195251465, 50.0, 23.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"format" : 6,
+					"id" : "obj-85",
+					"maxclass" : "flonum",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1961.220686435699463, 291.375560879707336, 50.0, 23.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"format" : 6,
+					"id" : "obj-84",
+					"maxclass" : "flonum",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 2119.31338369846344, 296.460306406021118, 50.0, 23.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"format" : 6,
+					"id" : "obj-83",
+					"maxclass" : "flonum",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 2179.287275750637036, 296.340056121349335, 50.0, 23.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"format" : 6,
+					"id" : "obj-82",
+					"maxclass" : "flonum",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 2173.322869498729688, 218.965466201305389, 50.0, 23.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-68",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 2158.508055169582349, 253.043353533744835, 29.5, 23.0 ],
+					"text" : "+"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"format" : 6,
+					"id" : "obj-59",
+					"maxclass" : "flonum",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 2103.728968262672424, 215.81731766462326, 50.0, 23.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-21",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 2074.498798508644086, 261.776186736443151, 29.5, 23.0 ],
+					"text" : "+"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-113",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 2054.617235422134399, 357.411668062210083, 127.0, 23.0 ],
+					"text" : "frameoval $1 $2 $3 $4"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"border" : 1.0,
+					"id" : "obj-111",
+					"maxclass" : "jit.pwindow",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "jit_matrix", "" ],
+					"patching_rect" : [ 2179.287275750637036, 102.996477246284485, 240.0, 240.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 13.0,
+					"id" : "obj-137",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1981.99990701675415, 412.711538791656494, 40.0, 23.0 ],
+					"text" : "reset"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 13.0,
+					"id" : "obj-90",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1981.99990701675415, 367.711538791656494, 42.0, 23.0 ],
+					"text" : "clear"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 13.0,
+					"id" : "obj-98",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "jit_matrix", "" ],
+					"patching_rect" : [ 2019.949058771133423, 471.296284317970276, 128.0, 23.0 ],
+					"text" : "jit.lcd 4 char 240 240"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 13.0,
+					"id" : "obj-86",
+					"items" : [ "none", ",", "dot", ",", "circle", ",", "square" ],
+					"maxclass" : "umenu",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "int", "", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 371.538441181182861, 255.384601950645447, 100.0, 24.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontname" : "Bahnschrift",
@@ -167,7 +506,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 1421.830508947372437, 421.121536498279966, 253.577235927342826, 258.284005967757594 ],
+					"patching_rect" : [ 1358.043160676956177, 399.064315946915258, 253.577235927342826, 258.284005967757594 ],
 					"pic" : "C:/Users/scott/Dropbox/__PROJECTS__/AUGMENTED_FEEDBACK_DRUMMERS/AUGMENTED_FEEDBACK_DRUMMERS/MaxPatches/images/axes.png"
 				}
 
@@ -275,7 +614,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "float", "float", "float" ],
-					"patching_rect" : [ 1007.0, 512.324673652648926, 87.0, 22.0 ],
+					"patching_rect" : [ 1106.461540222167969, 468.124967129348761, 87.0, 22.0 ],
 					"text" : "unpack 0. 0. 0."
 				}
 
@@ -961,7 +1300,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 892.675326347351074, 217.0, 56.324673652648926, 56.324673652648926 ]
+					"patching_rect" : [ 900.675326347351074, 249.05128014087677, 56.324673652648926, 56.324673652648926 ]
 				}
 
 			}
@@ -1167,8 +1506,20 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 22.0, 138.0, 636.439024448394775, 379.218560218811035 ],
+					"patching_rect" : [ 22.0, 134.87500011920929, 653.105690479278564, 385.468559980392456 ],
 					"proportion" : 0.5
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"background" : 1,
+					"id" : "obj-55",
+					"maxclass" : "jit.pwindow",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "jit_matrix", "" ],
+					"patching_rect" : [ 1782.614186425209027, 1100.749970197677612, 281.0, 212.0 ]
 				}
 
 			}
@@ -1185,6 +1536,13 @@
 					"destination" : [ "obj-5", 0 ],
 					"midpoints" : [ 55.304877758026123, 303.784606456756592, 263.134146690368652, 303.784606456756592 ],
 					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-98", 0 ],
+					"source" : [ "obj-113", 0 ]
 				}
 
 			}
@@ -1252,6 +1610,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-98", 0 ],
+					"source" : [ "obj-137", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-13", 0 ],
 					"order" : 1,
 					"source" : [ "obj-14", 0 ]
@@ -1272,6 +1637,13 @@
 					"destination" : [ "obj-5", 0 ],
 					"midpoints" : [ 55.304877758026123, 338.284606456756592, 263.134146690368652, 338.284606456756592 ],
 					"source" : [ "obj-15", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-55", 0 ],
+					"source" : [ "obj-17", 0 ]
 				}
 
 			}
@@ -1317,9 +1689,32 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-84", 0 ],
+					"source" : [ "obj-21", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-24", 0 ],
-					"midpoints" : [ 728.5, 249.0, 800.837663173675537, 249.0, 800.837663173675537, 206.0, 902.175326347351074, 206.0 ],
+					"midpoints" : [ 728.5, 249.0, 800.837663173675537, 249.0, 800.837663173675537, 206.0, 910.175326347351074, 206.0 ],
 					"source" : [ "obj-22", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-92", 0 ],
+					"order" : 1,
+					"source" : [ "obj-24", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-98", 0 ],
+					"order" : 0,
+					"source" : [ "obj-24", 0 ]
 				}
 
 			}
@@ -1431,6 +1826,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-21", 1 ],
+					"order" : 0,
+					"source" : [ "obj-59", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-88", 1 ],
+					"order" : 1,
+					"source" : [ "obj-59", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
 					"source" : [ "obj-63", 0 ]
 				}
@@ -1486,6 +1897,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-83", 0 ],
+					"source" : [ "obj-68", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
 					"midpoints" : [ 55.304877758026123, 319.784606456756592, 263.134146690368652, 319.784606456756592 ],
 					"source" : [ "obj-7", 0 ]
@@ -1496,6 +1914,111 @@
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
 					"source" : [ "obj-70", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-68", 1 ],
+					"source" : [ "obj-82", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-113", 0 ],
+					"source" : [ "obj-83", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-113", 0 ],
+					"source" : [ "obj-84", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-113", 0 ],
+					"source" : [ "obj-85", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-88", 0 ],
+					"source" : [ "obj-87", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-113", 0 ],
+					"source" : [ "obj-88", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-98", 0 ],
+					"source" : [ "obj-90", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-17", 0 ],
+					"source" : [ "obj-92", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-17", 0 ],
+					"source" : [ "obj-93", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-17", 0 ],
+					"source" : [ "obj-94", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-17", 0 ],
+					"source" : [ "obj-95", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-17", 0 ],
+					"source" : [ "obj-96", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-17", 0 ],
+					"source" : [ "obj-97", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-111", 0 ],
+					"source" : [ "obj-98", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-17", 0 ],
+					"source" : [ "obj-99", 0 ]
 				}
 
 			}
